@@ -1,0 +1,1425 @@
+@font-face {
+    font-family: "Montserrat-VariableFont_wght";
+    src: url("./assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype"); }
+  @font-face {
+    font-family: "BebasNeue-Regular";
+    src: url("./assets/fonts/BebasNeue-Regular.ttf") format("truetype"); }
+
+
+    .font-montserrat{
+        font-family: "Montserrat-VariableFont_wght", sans-serif;
+        font-style: normal;
+    }
+    .font-BebasNeue{
+        font-family: "BebasNeue-Regular", sans-serif;
+        font-style: normal;
+    }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navigation {
+    background: url(./assets/images/background.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 50px 315px 0 315px;
+}
+
+.navigation .header, .header .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo h5 {
+    font-size: 25px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+h5 span {
+    text-transform: uppercase;
+}
+
+.header .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact p {
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.contact img {
+    width: 18px;
+    height: 18px;
+}
+
+.navigation .anketa {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 34px;
+}
+
+
+.anketa h1 {
+    font-size: 48px;
+    line-height: 150%;
+    color: #FFFFFF;
+    width: 660px;
+    word-spacing: 15px;
+}
+
+.anketa h4 {
+    font-size: 35px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 27px;
+    word-spacing: 8px;
+}
+.anketa .content{
+    width: 56%;
+}
+.anketa .for-img{
+    width: 44%;
+}
+.anketa .content p {
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 27px;
+}
+
+.anketa button {
+    font-size: 20px;
+    line-height: 100%;
+    color: #F26933;
+    background: none;
+    outline: none;
+    text-shadow: 0px 0px 22px #E94F13;
+    border: 2px solid #E94F13;
+    box-shadow: 0px 0px 22px 1px #E94F13;
+    border-radius: 73px;
+    padding: 20px 30px;
+    margin-top: 46px;
+    cursor: pointer;
+}
+
+.anketa .for-img{
+    position: relative;
+}
+
+.anketa .for-img p{
+    position: absolute;
+    bottom: 183px;
+    font-size: 20px;
+    right: 0;
+    color: #fff;
+}
+
+.proekt {
+    background: url(./assets/images/background-all.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 87px 320px 346px 320px;
+}
+
+.proekt section:not(:first-child) {
+    margin-top: 110px;
+}
+
+.proekt section h5 {
+    font-size: 50px;
+    line-height: 100%;
+    color: #fff;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.proekt section h5 span{
+    color: #fff;
+    margin-left: 15px;
+}
+.proekt section ul {
+    list-style: none;
+    border-left: 2px solid #E94F13;
+}
+
+ul li {
+    font-size: 35px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.top {
+    margin-top: 45px;
+}
+
+section .nav {
+    margin-top: 45px;
+    position: relative;
+}
+
+.for-img1 .image {
+    width: 616px;
+    height: 410px;
+}
+
+.for-img2 .image {
+    width: 705px;
+    height: 470px;
+}
+
+.for-img2 .image:last-child {
+    display: none;
+}
+
+.img {
+    box-shadow: inset 5px 4px 24px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 30px 30px 0px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+ul li:not(:first-child) {
+    margin-top: 40px;
+}
+
+section h6 {
+    font-size: 35px;
+    line-height: 100%;
+    color: #FFFFFF;
+    letter-spacing: 1.2px;
+}
+
+.for-h6 {
+    margin-top: 233px;
+}
+
+section h4 {
+    font-size: 35px;
+    line-height: 100%;
+    color: #E94F13;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.end h6 {
+    margin: 0;
+}
+
+section h3 {
+    font-size: 35px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin: 70px 0 30px 0;
+}
+
+.section-four {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+span {
+    color: #E94F13;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards .card h1 {
+    font-size: 80px;
+    line-height: 100%;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    -webkit-text-stroke-width: 0.1px;
+}
+
+.span {
+    margin-top: 105px;
+}
+
+.span li {
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.btn1 {
+    font-size: 20px;
+    color: #1C1C1C;
+    text-shadow: 0px 0px 22px #E94F13;
+    background: #E94F13;
+    box-shadow: 0px 0px 22px 1px #E94F13;
+    border-radius: 73px;
+    padding: 20px 30px;
+    margin-top: 63px;
+    border: none;
+    outline: none;
+}
+
+.for-h3 h3 {
+    margin-top: 30px;
+    margin-bottom: 45px;
+    line-height: 150%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #1A1A1A;
+    opacity: 0.96;
+    padding: 50px 428px 105px 428px;
+}
+
+footer h3 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 100%;
+    color: #fff;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin: 18px 0 0 0 !important;
+}
+
+.modal {
+    background: url(./assets/images/background-all.png);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: -300%;
+    z-index: 3;
+}
+
+.wrapper {
+    padding: 54px 320px;
+}
+
+.head,
+.logo,
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal footer {
+    padding: 54px 320px;
+}
+
+.head .logo h5 {
+    font-size: 25px;
+    line-height: 100%;
+    color: #fff;
+}
+
+.all {
+    padding: 0 320px;
+    margin-bottom: 54px;
+}
+
+.glavniy {
+    display: flex;
+    align-items: center;
+}
+
+.glavniy img {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.glavniy p {
+    font-size: 20px;
+    line-height: 150%;
+    color: #C0C0C0;
+}
+
+.anket h2 {
+    font-size: 80px;
+    line-height: 100%;
+    color: #fff;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    margin-top: 28px;
+}
+
+.anket h4 {
+    font-size: 35px;
+    line-height: 100%;
+    color: #fff;
+    margin-top: 31px;
+}
+
+.anket h3 {
+    font-size: 35px;
+    line-height: 100%;
+    margin: 60px 0;
+}
+
+.anket ol {
+    margin-bottom: 60px;
+    margin-left: 20px;
+}
+
+.anket ol li {
+    font-size: 20px;
+    line-height: 159%;
+    color: #fff
+}
+
+li:hover {
+    transform: translateX(15px);
+    cursor: pointer;
+    color: #E94F13;
+}
+
+.input {
+    margin-bottom: 40px;
+}
+
+.inputs .input h5 {
+    font-size: 30px;
+    line-height: 100%;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.inputs .input input {
+    background: rgba(129, 128, 128, 0.2);
+    border: 2px solid #E94F13;
+    border-radius: 40px;
+    outline: none;
+    font-size: 30px;
+    line-height: 150%;
+    color: #fff;
+    padding: 16px 39px;
+    width: 630px;
+}
+
+input::placeholder{
+    color: #fff;
+    margin-top: 2px;
+    float: right;
+}
+
+.input1::placeholder{
+    float: left;
+    margin-top: 2px;
+}
+.inp::placeholder{
+    opacity: 0.4;
+}
+
+.btns {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+
+.btns div,
+.btns10 div {
+    background: rgba(129, 128, 128, 0.2);
+    border: 2px solid #E94F13;
+    border-radius: 31px;
+    padding: 23px 35px;
+    font-size: 30px;
+    line-height: 100%;
+    color: #fff;
+    margin-right: 37px;
+}
+.btns10{
+    display: flex;
+}
+.click.active, .click1.active, .click2.active{
+    background: #E94F13;
+    color: #fff;
+}
+
+
+.button {
+    background: #E94F13;
+    box-shadow: 0px 0px 22px 1px #E94F13;
+    border-radius: 31px;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000;
+    padding: 23px 74px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+    background: #E94F13;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: -200%;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.arrow a {
+    text-decoration: none;
+    color: #000;
+}
+
+.arrowUp {
+    bottom: 30px;
+}
+
+@media (max-width: 1800px) {
+    .navigation {
+        padding: 54px 180px 0 180px;
+    }
+
+    .for-img .image {
+        width: 465px;
+        height: 583px;
+    }
+
+    .anketa h1 {
+        font-size: 49px;
+    }
+
+    .anketa h4 {
+        font-size: 30px;
+    }
+
+    .anketa .content p {
+        font-size: 18px;
+    }
+
+    .anketa button {
+        font-size: 18px;
+        padding: 19px 29px;
+    }
+
+    .proekt {
+        padding: 50px 180px 346px 180px;
+    }
+
+    .proekt section h5 {
+        font-size: 49px;
+    }
+
+    .proekt .top {
+        margin-top: 35px;
+    }
+
+    ul li:not(:first-child) {
+        margin-top: 35px;
+    }
+
+    ul li {
+        font-size: 35px;
+    }
+
+    section h6 {
+        font-size: 35px;
+    }
+
+    ul li:not(:first-child) {
+        margin-top: 30px;
+    }
+
+    .section-four {
+        margin-top: 50px;
+    }
+
+    .btn1 {
+        font-size: 18px;
+        padding: 19px 29px;
+        margin-top: 50px;
+    }
+
+    footer {
+        padding: 50px 200px 80px 200px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .navigation {
+        padding: 40px 60px 0 60px;
+    }
+
+    .header .logo h5 {
+        font-size: 19px;
+    }
+
+    .logo img {
+        width: 36px;
+        height: 39px;
+    }
+
+    .contact img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .contact p {
+        font-size: 15px;
+    }
+
+    .anketa h1 {
+        font-size: 39px;
+    }
+
+    .anketa h4 {
+        font-size: 21px;
+        margin-top: 23px;
+    }
+
+    .anketa .content p {
+        font-size: 15px;
+        margin-top: 23px;
+    }
+    .anketa .for-img p span{
+        display: none;
+    }
+
+    .anketa button {
+        font-size: 15px;
+        padding: 15px 27px;
+        margin-top: 23px;
+    }
+
+    .proekt {
+        padding: 70px 60px 346px 60px;
+    }
+
+    .proekt section h5 {
+        font-size: 39px;
+    }
+
+    .cards .line {
+        border-right: 2px solid #E94F13;
+        margin: 0 10px;
+    }
+
+    .for-img1 .image {
+        width: 474.55px;
+        height: 315.85px;
+    }
+
+    .for-img2 .image {
+        width: 598px;
+        height: 399px;
+    }
+
+    .for-img3 .image {
+        width: 432.99px;
+        height: 382.34px;
+    }
+
+    section .nav {
+        margin-top: 41px;
+    }
+
+    ul li:not(:first-child) {
+        margin-top: 35px;
+    }
+
+    section h6 {
+        font-size: 24px;
+        margin-top: 35px;
+    }
+
+    .proekt section:not(:first-child) {
+        margin-top: 70px;
+    }
+
+    section h4 {
+        font-size: 27px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .end {
+        padding-top: 0;
+    }
+
+    section h3 {
+        font-size: 24px;
+        margin-top: 35px 0;
+    }
+
+    ul li {
+        font-size: 22px;
+    }
+
+    .span {
+        margin-top: 50px;
+    }
+
+    .span li {
+        font-size: 18px;
+    }
+
+    .section-four {
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .proekt section ul {
+        margin-top: 45px;
+    }
+
+    .btn1 {
+        margin-top: 45px;
+    }
+
+    footer {
+        padding: 40px 80px;
+    }
+
+    footer h3 {
+        font-size: 27px;
+    }
+
+    footer ul li {
+        font-size: 18px;
+    }
+
+    .for-h6 {
+        margin-top: 135px;
+    }
+
+    .wrapper {
+        padding: 40px 60px;
+    }
+
+    .head .logo h5 {
+        font-size: 19px;
+    }
+
+    .all {
+        padding: 0 60px;
+    }
+
+    .modal footer {
+        padding: 40px 60px;
+    }
+
+    .glavniy p {
+        font-size: 18px;
+    }
+
+    .anket h2 {
+        font-size: 62px;
+    }
+
+    .anket h4 {
+        margin-top: 41px;
+        font-size: 27px;
+    }
+
+    .anket h3 {
+        font-size: 27px;
+        margin: 65px 0 68px 0;
+    }
+
+    .anket ol {
+        margin-bottom: 70px;
+    }
+
+    .inputs .input h5 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .inputs .input input {
+        font-size: 20px;
+        padding: 11px 25px;
+        width: 465px;
+    }
+
+    .btns div:first-child,
+    .btns div:last-child,
+    .btns10 div {
+        padding: 14px 36px;
+        font-size: 25px;
+    }
+
+    .btns {
+        margin-bottom: 60px;
+    }
+
+    .button {
+        font-size: 25px;
+        padding: 17px 38px;
+    }
+
+    .modal footer {
+        padding: 40px 100px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .navigation {
+        padding: 20px 30px 0 30px;
+    }
+
+    .header .logo h5 {
+        font-size: 11px;
+    }
+
+    .logo img {
+        width: 19px;
+        height: 21px;
+    }
+
+    .contact img {
+        width: 11px;
+        height: 11px;
+    }
+
+    .contact p {
+        font-size: 9px;
+    }
+
+    .anketa h1 {
+        font-size: 27px;
+    }
+
+    .anketa h4 {
+        font-size: 16px;
+        margin-top: 14px;
+    }
+
+    .anketa .content p {
+        font-size: 11px;
+        margin-top: 15px;
+    }
+
+    .anketa button {
+        font-size: 11px;
+        padding: 10px 16px;
+        margin-top: 13px;
+    }
+
+    .anketa .for-img p {
+        bottom: 80px;
+        font-size: 16px;
+        right: 100px;
+    }
+    .proekt {
+        padding: 40px 30px 346px 30px;
+    }
+
+    .proekt section h5 {
+        font-size: 27px;
+    }
+
+    .for-img .image {
+        width: 289.27px;
+        height: 362.67px;
+    }
+
+    .for-img1 .image {
+        width: 377px;
+        height: 251px;
+    }
+
+    .for-img2 .image {
+        width: 392.94px;
+        height: 262px;
+    }
+
+    .for-img3 .image {
+        width: 230px;
+        height: 246px;
+    }
+
+    .for-h6 {
+        margin-top: 80px;
+    }
+
+    section .nav {
+        margin-top: 30px;
+    }
+
+    ul li:not(:first-child) {
+        margin-top: 25px;
+    }
+
+    ul li {
+        font-size: 16px;
+    }
+
+    section h6 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .proekt section:not(:first-child) {
+        margin-top: 40px;
+    }
+
+    section h4 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .proekt section ul {
+        margin-top: 35px;
+    }
+
+    .end h6 br {
+        display: none;
+    }
+
+    .cards {
+        margin-bottom: 25px;
+    }
+
+    .cards .card h6 {
+        margin-bottom: 0;
+    }
+
+    .cards .card h1 {
+        font-size: 62px;
+    }
+
+    section h3 {
+        font-size: 16px;
+        margin: 35px 0 32px 0;
+    }
+
+    .btn1 {
+        margin-top: 40px;
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 30px 40px;
+    }
+
+    footer h3 {
+        font-size: 20px;
+    }
+
+    footer ul li {
+        font-size: 13px;
+    }
+
+    .wrapper {
+        padding: 32px 40px;
+    }
+
+    .head .logo h5 {
+        font-size: 11px;
+    }
+
+    .glavniy p {
+        font-size: 11px;
+    }
+
+    .anket h2 {
+        font-size: 37px;
+        margin-top: 11px;
+    }
+
+    .anket h4 {
+        margin-top: 25px;
+        font-size: 16px;
+    }
+
+    .anket h3 {
+        font-size: 16px;
+        margin: 30px 0 20px 0;
+    }
+
+    .anket ol {
+        margin-bottom: 41px;
+    }
+
+    .anket ol li {
+        font-size: 11px;
+    }
+
+    .input {
+        margin-bottom: 36px;
+    }
+
+    .inputs .input h5 {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .inputs .input input {
+        font-size: 13px;
+        padding: 7px 15px;
+        width: 352px;
+    }
+
+    .btns {
+        margin-bottom: 40px;
+    }
+
+    .btns div:first-child,
+    .btns div:last-child,
+    .btns10 div {
+        padding: 8px 27px;
+        font-size: 16px;
+    }
+
+    .btns div:first-child {
+        margin-right: 29px;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 10px 46px;
+    }
+
+    .modal footer {
+        padding: 32px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navigation {
+        padding: 20px 20px 0 20px;
+    }
+    .proekt {
+        padding: 40px 20px 140px 20px;
+    }
+
+    .navigation .anketa {
+        margin-top: 70px;
+        position: relative;
+    }
+    .anketa .for-img {
+        position: revert;
+    }
+    .for-img .image {
+        width: 230px;
+        height: 297px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+    }
+    .anketa .for-img p {
+        bottom: 40px;
+        right: 10px;
+    }
+
+    .anketa h1 {
+        font-size: 31px;
+        width: 420px;
+    }
+
+    .anketa h4 {
+        font-size: 19px;
+        margin-top: 50px;
+    }
+
+    .anketa .content p {
+        font-size: 15px;
+        margin-top: 50px;
+    }
+
+    .anketa button {
+        font-size: 11px;
+        padding: 8px 63px;
+        margin-top: 50px;
+    }
+
+    .anketa .content {
+        margin-bottom: 125px;
+    }
+
+    .for-img1 .image {
+        width: 300px;
+        height: 231px;
+    }
+
+    .cards .card h1 {
+        font-size: 37px;
+    }
+
+    .for-img2 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        box-shadow: none;
+        margin-top: 9px;
+        padding: 9px 0;
+    }
+
+    .for-img2 .image:first-child {
+        display: none;
+        border-radius: 10px;
+    }
+
+    .for-img2 .image:last-child {
+        display: block;
+        border-radius: 20px;
+    }
+
+    .for-img3 .image {
+        width: 199px;
+        height: 218px;
+    }
+    .span li {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 475px) {
+    .navigation {
+        padding: 10px 15px 0 15px;
+    }
+
+    .navigation .anketa {
+        flex-direction: column;
+    }
+
+    .anketa .content {
+        margin-bottom: 20px;
+    }
+
+    .anketa .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .anketa button {
+        margin-top: 20px;
+    }
+
+    .anketa .content p {
+        margin-top: 20px;
+        font-size: 11px;
+    }
+
+    .anketa h4 {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .anketa button {
+        margin: 40px 65px;
+    }
+
+    .anketa h1 {
+        font-size: 23px;
+        width: 320px;
+    }
+
+    .for-img .image {
+        width: 230px;
+        height: 287px;
+        position: relative;
+        left: 0;
+    }
+    .anketa .for-img p {
+        right: 70px;
+    }
+    .for-img1 .image {
+        width: 210px;
+        height: 231px;
+    }
+
+    .img.for-img1 {
+        width: 210px;
+        height: 231px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .cards .line {
+        border-bottom: 2px solid #E94F13;
+        margin: 47px 0 17px 0;
+        width: 100%;
+    }
+
+    section h3 {
+        margin: 30px 0 35px 0;
+        width: 200px;
+    }
+
+    .for-h3 h3 {
+        width: 100%;
+    }
+
+    ul li {
+        margin-left: 10px;
+    }
+
+    .btn1 {
+        margin-top: 25px;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .position {
+        margin-top: 60px;
+    }
+
+    .proekt {
+        padding: 20px 20px 100px 20px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    footer ul li {
+        margin: 10px 0 0 0 !important;
+    }
+
+    .wrapper {
+        padding: 26px 25px;
+    }
+
+    .all {
+        padding: 0 25px;
+    }
+
+    .glavniy {
+        margin-top: 15px;
+    }
+
+    .anket h4 {
+        margin-top: 20px;
+    }
+
+    .anket ol {
+        margin-bottom: 45px;
+        margin-left: 10px;
+    }
+
+    .anket h3 {
+        margin: 20px 0 20px 0;
+    }
+
+    .inputs .input h5 {
+        font-size: 15px;
+        margin-bottom: 13px;
+        display: inline-block;
+    }
+
+    .inputs .input input {
+        font-size: 15px;
+        padding: 14px 20px;
+    }
+
+    .input {
+        margin-bottom: 30px;
+    }
+
+    .btns div:first-child {
+        margin-right: 37px;
+    }
+
+    .btns div:first-child,
+    .btns div:last-child,
+    .btns10 div {
+        padding: 15px 36px;
+        font-size: 20px;
+    }
+
+    .button {
+        font-size: 20px;
+        padding: 15px 46px;
+        width: 100%;
+    }
+
+    footer h3 {
+        font-size: 18px;
+    }
+
+    footer ul li {
+        font-size: 12px;
+    }
+
+    .arrow {
+        width: 30px;
+        height: 30px;
+        right: 20px;
+    }
+
+    .arrowUp {
+        bottom: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn1 {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    footer {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    footer ul {
+        margin-top: 20px;
+    }
+
+    .navigation {
+        padding: 10px;
+    }
+
+    .header .logo h5 {
+        font-size: 9px !important;
+    }
+
+    .contact p {
+        font-size: 8px;
+    }
+
+    .for-img2 .image {
+        width: 290.94px;
+        height: 210px;
+    }
+
+    .anketa h1 {
+        font-size: 17px;
+        width: 250px;
+    }
+
+    .anketa h4 {
+        font-size: 10px;
+    }
+
+    .anketa button {
+        margin: 20px 40px;
+    }
+
+    .proekt section h5 {
+        font-size: 20px;
+    }
+
+    ul li:not(:first-child) {
+        margin-top: 15px;
+    }
+
+    .img.for-img1 {
+        width: 170px;
+        height: 170px;
+    }
+
+    .img.for-img1 .image {
+        width: 170px;
+        height: 170px;
+    }
+
+    .proekt section:not(:first-child) {
+        margin-top: 30px;
+    }
+
+    .proekt section ul {
+        margin-top: 25px;
+    }
+
+    section .nav {
+        margin-top: 20px;
+    }
+
+    .for-img3 .image {
+        width: 180px;
+        height: 200px;
+    }
+
+    .for-h6 {
+        margin-top: 70px;
+        margin-bottom: 0;
+    }
+
+    .wrapper {
+        padding: 10px;
+    }
+
+    .all {
+        padding: 0 10px;
+    }
+
+    .inputs .input input {
+        font-size: 13px;
+        padding: 7px 15px;
+        width: 250px;
+    }
+
+    .btns div:first-child,
+    .btns div:last-child,
+    .btns10 div {
+        padding: 7px 24px;
+        font-size: 15px;
+    }
+
+    .button {
+        width: 80%;
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    .modal footer {
+        padding: 20px;
+    }
+    .head .logo h5 {
+        font-size: 9px;
+    }
+}
